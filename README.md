@@ -10,7 +10,7 @@ This will put an executable, `pyret`, into `node_modules/.bin/pyret`.  It
 compiles Pyret files to JavaScript files.  For example:
 
 ```
-$ ./node_modules.bin/pyret test.arr
+$ ./node_modules/.bin/pyret test.arr
 ```
 
 This will print some information about starting a server, then work for a bit
@@ -24,3 +24,7 @@ Looks shipshape, your test passed, mate!
 
 The program `main.arr` is a little more complicated, and uses the `file`
 library to do some real work.
+
+*Protip*: You can add `$HOME/.node/bin` to your `$PATH` and it will make
+npm-installed executables available by default, so you can just write `pyret`
+rather than `node_modules/.bin/pyret`.
