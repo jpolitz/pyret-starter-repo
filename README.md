@@ -14,7 +14,8 @@ $ ./node_modules.bin/pyret test.arr
 ```
 
 This will print some information about starting a server, then work for a bit
-and generate `test.arr.jarr`.  Then you can run:
+and generate `test.arr.jarr`.  The first time will take a while; future runs
+will be much shorter.  Then you can run:
 
 ```
 $ node test.arr.jarr
