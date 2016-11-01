@@ -1,0 +1,4 @@
+node_modules/
+program-require.js
+.pyret-parley.*
+compiled/
