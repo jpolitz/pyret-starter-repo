@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A sample project that uses Pyret",
   "dependencies": {
-    "pyret-lang": "git://github.com/brownplt/pyret-lang.git#server",
+    "pyret-lang": "git://github.com/brownplt/pyret-lang.git#horizon",
     "requirejs": "~2.1.15"
   },
   "main": "index.js",
